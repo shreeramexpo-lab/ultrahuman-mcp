@@ -30,6 +30,7 @@ Phir naye chat mein: "kal raat ki meri sleep aur HRV batao".
 ## Tools
 - get_daily_metrics(day) - ek din ka data (default: kal)
 - get_metrics_range(start_date, end_date) - max 31 din ka trend
+- get_hourly(metric, day) - hr / hrv / temp / steps ghante-wise
 - check_connection() - token chal raha hai ya nahi
 
 ## Security
