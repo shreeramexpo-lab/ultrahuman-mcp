@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ultrahuman-mcp
+    runtime: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: UH_TOKEN
+        sync: false
+      - key: UH_EMAIL
+        sync: false
+      - key: MCP_SECRET_PATH
+        generateValue: true
